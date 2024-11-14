@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int main(){ 
-	short i,j; 
-	i = 1; 
-	j = 2; 
-	i++; 
-	j += i; 
-	return 0; 
-} 
+int main(){
+        int a,b=3,c=1,d=2;
+        a=b+c*d;
+        a=(b+c)*d;
+        d=a;
+return 0;
+}
