@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){ 
-	char a[3]; 
-	a[0] = 1; 
-	a[1] = 2; 
-	a[2] = 3; 
+	int i, a[20];     
+	for( i = 0; i < 20; i++ ){ 
+		a[i] = i*4; 
+	} 
 	return 0; 
 } 
